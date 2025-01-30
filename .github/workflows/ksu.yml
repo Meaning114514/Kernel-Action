@@ -18,10 +18,10 @@ jobs:
     - name: Ksu CI
       uses: ./
       with:
-          kernel-url: https://github.com/Fyj69/mcd_kernel_oneplus_sdm845
+          kernel-url: https://github.com/TheVoyager0777/Kernel_Xiaomi_SM8150_R
           kernel-dir: ksu
-          kernel-branch: mcd-OOS-R
-          config: mcd_ksu_defconfig
+          kernel-branch: VK-VI
+          config: crux_defconfig
           arch: arm64
           extra-cmd: LLVM=1
           other-clang-url: https://github.com/kdrag0n/proton-clang
@@ -43,4 +43,4 @@ jobs:
           nethunter: true
           nethunter-patch: true
           bbrplus: true
-          anykernel3: true
+          anykernel3: false
